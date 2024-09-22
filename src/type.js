@@ -1,3 +1,4 @@
+"use strict";
 /* Bad */
 // function type1(val:string){
 // 	return val;
@@ -8,5 +9,5 @@
 function type1(val) {
     return val;
 }
-var user = 'me';
+const user = 'me';
 type1(user);

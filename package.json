@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
      "tsc": "tsc",
-		 "tscinit":"tsc --init"
+		 "tscinit":"tsc --init",
+     "dts":"tsc --project ./tsconfig.json"
   },
   "author": "CHOI DAE GEON",
   "license": "ISC",
